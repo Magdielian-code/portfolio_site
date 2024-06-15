@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ozioma Agaecheta</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Javascript link -->
+    <script src="./js/main.js" defer></script>
+  </head>
+  <body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white font-sans	font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";">
+    <header class="bg-black text-white sticky top-0 z-10">
+      <section class="max-w-6xl mx-auto p-4 flex justify-between items-center">
+        <h1 class="text-3xl font-medium">
+          <a href="#hero"
+            ><img
+              class="w-12 h-12 rounded-full"
+              src="./img/me2.jpeg"
+              alt="A picture of me"
+          /></a>
+        </h1>
+        <div>
+          <button
+            id="hamburger-button"
+            class="text-3xl md:hidden cursor-pointer relative w-8 h-8"
+          >
+            <!-- &#9776; -->
+            <div
+              class="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-white transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']"
+            ></div>
+          </button>
+          <nav class="hidden md:block space-x-8 text-xl" arial-label="main">
+            <button
+              class="px-2 py-2 rounded-lg text-center border-0 hover:border-2 hover:border-[#8B4513]"
+            >
+              <a href="#hero" class="hover:opacity-90">Home</a>
+            </button>
+            <button
+              class="px-2 py-2 rounded-lg text-center border-0 hover:border-2 hover:border-[#8B4513]"
+            >
+              <a href="#talks" class="hover:opacity-90">Talks</a>
+            </button>
+            <button
+              class="px-2 py-2 rounded-lg text-center border-0 hover:border-2 hover:border-[#8B4513]"
+            >
+              <a href="#blog" class="hover:opacity-90">Blog</a>
+            </button>
+            <button
+              class="px-2 py-2 rounded-lg text-center border-0 hover:border-2 hover:border-[#8B4513]"
+            >
+              <a href="#projects" class="hover:opacity-90">Project</a>
+            </button>
+            <button
+              class="px-2 py-2 rounded-lg text-center border-0 hover:border-2 hover:border-[#8B4513]"
+            >
+              <a href="#testimonials" class="hover:opacity-90">Testimonials</a>
+            </button>
+            <button
+              class="px-2 py-2 rounded-lg text-center border-0 hover:border-2 hover:border-[#8B4513]"
+            >
+              <a href="#contacts" class="hover:opacity-90">Contact</a>
+            </button>
+          </nav>
+        </div>
+      </section>
+
+      <!-- MOBILE MENU -->
+      <section
+        id="mobile-menu"
+        class="absolute top-68 bg-black w-full text-5xl flex-col justify-center origin-top animate-open-menu hidden"
+      >
+        <!-- <button class="text-8xl self-end px-6">&times;</button> -->
+        <nav
+          class="flex flex-col min-h-screen items-center py-8"
+          aria-label="mobile"
+        >
+          <div
+            class="w-full text-center rounded-t-lg mb-6 bg-black border-0 hover:border-2 hover:border-teal-700"
+          >
+            <a href="#hero" class="w-full text-center py-6 hover:opacity-90"
+              >Home</a
+            >
+          </div>
+          <div
+            class="w-full text-center mb-6 bg-black border-0 hover:border-2 border-teal-700"
+          >
+            <a href="#rockets" class="w-full text-center py-6 hover:opacity-90"
+              >Our Rockets</a
+            >
+          </div>
+          <div
+            class="w-full text-center mb-6 bg-black border-0 hover:border-2 border-teal-700"
+          >
+            <a
+              href="#testimonials"
+              class="w-full text-center py-6 hover:opacity-90"
+              >Testimonials</a
+            >
+          </div>
+          <div
+            class="w-full text-center mb-6 bg-black border-0 hover:border-2 border-teal-700"
+          >
+            <a href="#contact" class="w-full text-center py-6 hover:opacity-90"
+              >Contact Us</a
+            >
+          </div>
+          <div
+            class="w-full text-center rounded-b-lg bg-black border-0 hover:border-2 border-teal-700"
+          >
+            <a href="#footer" class="w-full text-center py-6 hover:opacity-90"
+              >Legal</a
+            >
+          </div>
+        </nav>
+      </section>
+    </header>
+
+    <main class="max-w-6xl mx-auto">
+      <section class="max-w-6xl ml-6">
+        <h1 class="text-black dark:text-[#8B4513] text-9xl ml-0 pt-36 font-bold">Ozioma Agaecheta</h1>
+      <h2 class="text-5xl text-[#8B4513] ml-2 pt-2 font-bold hover:underline ">Full-Stack Developer & Web3 Developer</h2>
+
+      <p class="py-14 max-w-2xl lg:max-w-2xl text-lg/8 md:text-2xl/10">
+        I&apos;m passionate about 💻 coding scalable systems, 🤖 automating
+        workflows, system design and architechure  ☁️ cloud infrastructure, and 🤝 collaborative development
+      </p>
+      </section>
+
+      <section>
+        <div class="flex flex-row ml-6">
+          <a href="https://www.alxafrica.com/"
+            ><img
+              class="w-12 h-12 rounded-full"
+              src="./img/alx_logo.png"
+              alt="A picture of me"
+          />
+          <p class="flex">Software Engineering</p>
+        </a>
+        </div>
+      </section>
+        
+      
+    </main>
+  </body>
+</html>

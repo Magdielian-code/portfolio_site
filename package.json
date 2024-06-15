@@ -1,0 +1,16 @@
+{
+  "name": "portfolio_site",
+  "version": "1.0.0",
+  "description": "This is my portfolio site and please drop a star, feel free to fork and drop recommendations etc.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css -w",
+    "prettier": "npx prettier --write **/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.6.4"
+  }
+}
