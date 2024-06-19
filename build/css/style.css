@@ -631,10 +631,6 @@ video {
   margin-top: 1rem;
 }
 
-.mt-40 {
-  margin-top: 10rem;
-}
-
 .flex {
   display: flex;
 }
@@ -669,18 +665,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-4 {
-  width: 1rem;
-}
-
-.w-2 {
-  width: 0.5rem;
-}
-
-.w-1 {
-  width: 0.25rem;
 }
 
 .max-w-2xl {
