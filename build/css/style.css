@@ -689,6 +689,10 @@ video {
   margin-top: 10rem;
 }
 
+.ml-4 {
+  margin-left: 1rem;
+}
+
 .block {
   display: block;
 }
@@ -743,6 +747,10 @@ video {
 
 .w-40 {
   width: 10rem;
+}
+
+.min-w-full {
+  min-width: 100%;
 }
 
 .max-w-2xl {
@@ -1009,12 +1017,25 @@ video {
   line-height: 1;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-\[4rem\] {
+  font-size: 4rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
 
 .font-medium {
   font-weight: 500;
+}
+
+.leading-none {
+  line-height: 1;
 }
 
 .text-\[\#8B4513\] {
@@ -1222,8 +1243,28 @@ video {
     margin-top: 3rem;
   }
 
+  .sm\:ml-4 {
+    margin-left: 1rem;
+  }
+
+  .sm\:ml-2 {
+    margin-left: 0.5rem;
+  }
+
+  .sm\:ml-6 {
+    margin-left: 1.5rem;
+  }
+
+  .sm\:ml-8 {
+    margin-left: 2rem;
+  }
+
   .sm\:hidden {
     display: none;
+  }
+
+  .sm\:text-wrap {
+    text-wrap: wrap;
   }
 
   .sm\:text-6xl {
@@ -1239,6 +1280,41 @@ video {
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .sm\:text-lg\/8 {
+    font-size: 1.125rem;
+    line-height: 2rem;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .sm\:text-lg\/10 {
+    font-size: 1.125rem;
+    line-height: 2.5rem;
+  }
+
+  .sm\:text-lg\/4 {
+    font-size: 1.125rem;
+    line-height: 1rem;
+  }
+
+  .sm\:text-9xl {
+    font-size: 8rem;
+    line-height: 1;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -1259,6 +1335,25 @@ video {
   .md\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-xl\/10 {
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+  }
+
+  .md\:text-lg\/10 {
+    font-size: 1.125rem;
+    line-height: 2.5rem;
+  }
+
+  .md\:text-\[7rem\] {
+    font-size: 7rem;
   }
 }
 
@@ -1281,6 +1376,14 @@ video {
 
   .lg\:max-w-none {
     max-width: none;
+  }
+
+  .lg\:max-w-4xl {
+    max-width: 56rem;
+  }
+
+  .lg\:max-w-xl {
+    max-width: 36rem;
   }
 
   .lg\:flex-row {
