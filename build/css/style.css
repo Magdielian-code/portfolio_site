@@ -801,6 +801,14 @@ video {
   height: 1rem;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-7 {
+  height: 1.75rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -833,8 +841,20 @@ video {
   width: 1rem;
 }
 
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-7 {
+  width: 1.75rem;
+}
+
 .min-w-full {
   min-width: 100%;
+}
+
+.min-w-6 {
+  min-width: 1.5rem;
 }
 
 .max-w-2xl {
@@ -897,6 +917,22 @@ video {
   max-width: 48rem;
 }
 
+.max-w-md {
+  max-width: 28rem;
+}
+
+.max-w-9 {
+  max-width: 2.25rem;
+}
+
+.max-w-2 {
+  max-width: 0.5rem;
+}
+
+.max-w-1 {
+  max-width: 0.25rem;
+}
+
 .origin-top {
   transform-origin: top;
 }
@@ -925,6 +961,26 @@ video {
 
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-cols-8 {
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+
+.grid-cols-7 {
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .flex-row {
