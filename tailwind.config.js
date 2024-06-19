@@ -11,6 +11,9 @@ module.exports = {
         },
         secondary: '#8B4513',
       },
+      minWidth: {
+        'half-6xl': '36rem', 
+      },
       screens: {
         'widescreen': { 'raw': '(min-aspect-ratio: 3/2)' },
         'tallscreen': { 'raw': '(max-aspect-ratio: 13/20)' },

@@ -587,25 +587,12 @@ video {
   margin-right: auto;
 }
 
-.my-12 {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
 .-mt-0 {
   margin-top: -0px;
 }
 
 .-mt-0\.5 {
   margin-top: -0.125rem;
-}
-
-.mb-0 {
-  margin-bottom: 0px;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
 }
 
 .mb-6 {
@@ -640,6 +627,14 @@ video {
   margin-top: 0.5rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
+}
+
 .flex {
   display: flex;
 }
@@ -668,16 +663,24 @@ video {
   width: 3rem;
 }
 
-.w-2\/3 {
-  width: 66.666667%;
-}
-
 .w-8 {
   width: 2rem;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-1 {
+  width: 0.25rem;
 }
 
 .max-w-2xl {
@@ -714,10 +717,6 @@ video {
   cursor: pointer;
 }
 
-.scroll-mt-20 {
-  scroll-margin-top: 5rem;
-}
-
 .flex-row {
   flex-direction: row;
 }
@@ -736,12 +735,6 @@ video {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.space-x-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1rem * var(--tw-space-x-reverse));
-  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-8 > :not([hidden]) ~ :not([hidden]) {
@@ -804,10 +797,6 @@ video {
   padding: 1rem;
 }
 
-.p-6 {
-  padding: 1.5rem;
-}
-
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -828,11 +817,6 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -849,6 +833,10 @@ video {
 
 .pt-36 {
   padding-top: 9rem;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .text-center {
@@ -1072,25 +1060,8 @@ video {
     z-index: 10;
   }
 
-  .sm\:flex {
-    display: flex;
-  }
-
   .sm\:hidden {
     display: none;
-  }
-
-  .sm\:flex-col {
-    flex-direction: column;
-  }
-
-  .sm\:p-6 {
-    padding: 1.5rem;
-  }
-
-  .sm\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
   }
 }
 
@@ -1115,10 +1086,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:block {
-    display: block;
-  }
-
   .lg\:flex {
     display: flex;
   }
@@ -1134,18 +1101,6 @@ video {
   .lg\:text-8xl {
     font-size: 6rem;
     line-height: 1;
-  }
-}
-
-@media (min-aspect-ratio: 3/2) {
-  .widescreen\:section-min-height {
-    min-height: calc(100vh - 68px)
-  }
-}
-
-@media (max-aspect-ratio: 13/20) {
-  .tallscreen\:section-min-height {
-    min-height: calc(100vh - 68px)
   }
 }
 
