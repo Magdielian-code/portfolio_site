@@ -12,7 +12,7 @@
     <script src="./js/main.js" defer></script>
   </head>
   <body
-    class="min-h-screen bg-black text-white dark:bg-black dark:text-white font-sans"
+    class="min-h-screen bg-white text-black dark:bg-black dark:text-white font-sans"
   >
     <header
       class="bg-black dark:bg-black text-white dark:text-white sticky sm:sticky top-0 sm:top-0 z-10 sm:z-10 w-full min-w-full"
@@ -125,7 +125,7 @@
     <main class="max-w-6xl mx-auto">
       <section class="max-w-6xl ml-6">
         <h1
-          class="text-white dark:text-[#8B4513] font-bold text-[4rem] md:text-[7rem] leading-none -ml-1 pt-28"
+          class="text-black dark:text-[#8B4513] font-bold text-[4rem] md:text-[7rem] leading-none -ml-1 pt-28"
         >
           Ozioma Agaecheta
         </h1>
@@ -170,7 +170,7 @@
         </div>
       </section>
 
-      <div id="about" class="flex flex-col lg:flex-row mt-40 max-w-6xl">
+      <div id="about" class="flex flex-col justify-between lg:flex-row mt-40 max-w-6xl">
         <div class="ml-6 max-w-lg">
           <img
             src="./img/me2.jpeg"
@@ -183,10 +183,9 @@
             I build <span class="text-[#8B4513]">scalable software</span>
           </div>
         </div>
-        <div class="max-w-6 min-w-6"></div>
         <!-- about me -->
-        <div class="lg:p-0 ;g:p-0">
-          <div class="text-lg/8 sm:mt-3 md:text-xlg/10 ml-6 max-w-sm">
+        <div class="lg:p-0 ;g:p-0  max-w-lg">
+          <div class="text-lg/8 sm:mt-3 md:text-xlg/10 ml-6">
             With over 3 years of experience dedicated to learning and creating
             professional and brand-focused software and online solutions in
             diverse environments aimed at enhancing brand's online presence.
@@ -288,13 +287,18 @@
       </div>
 
       <!-- Tools and Software -->
-      <div class="grid grid-cols-8 gap-8 mt-40">
+       <h1 class="text-[#8B4513]  font-bold mt-40 text- lg:text-6xl md:text-4xl mb-1 ml-6">Tools and Software</h1>
+      <p class="ml-6 font-bold mb-1">Programming Languages</p>
+       <div class="grid grid-cols-8 mt-3 gap-8">
         <div class="flex flex-row gap-1 ml-6">
           <img
-              class="w-7 h-7 mt-1 hover:"
-              src="./img/gmail.svg"
-              alt="Link to my gmail account"
+              class="w-7 h-7 mt-1"
+              src="./img/python-color.svg"
+              alt="Python logo"
             />
+            <span class="tooltip absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 bg-gray-800 text-white text-sm rounded hidden">
+              Python logo
+          </span>
         </div>
 
         <div class="flex flex-row gap-1 ml-6">
@@ -336,6 +340,7 @@
               alt="Link to my gmail account"
             />
         </div>
+
       </div>
     </div>
     </main>
