@@ -72,29 +72,47 @@
       <!-- MOBILE MENU -->
       <section
         id="mobile-menu"
-        class="absolute top-68 bg-black w-full text-5xl flex-col justify-center origin-top animate-open-menu hidden"
+        class="font-customFont absolute top-68 bg-white w-full h- text-1xl flex-col justify-left origin-top animate-open-menu hidden"
       >
         <!-- <button class="text-8xl self-end px-6">&times;</button> -->
         <nav
-          class="flex flex-col min-h-screen items-center py-8"
+          class="flex flex-col min-h-50vh max-w-1/2 items-center py-8"
           aria-label="mobile"
         >
           <div
-            class="w-full text-center rounded-t-lg mb-6 bg-black border-0 hover:border-2 hover:border-teal-700"
+            class="w-2/3 text-center rounded-lg mb-2 py-2 bg-[#8B4513] border-0 hover:border-2 hover:border-black"
           >
-            <a href="#hero" class="w-full text-center py-6 hover:opacity-90"
+            <a href="#home" class="w-full text-center py-6 hover:opacity-90"
               >Home</a
             >
           </div>
           <div
-            class="w-full text-center mb-6 bg-black border-0 hover:border-2 border-teal-700"
+            class="w-2/3  text-center mb-2 py-2 bg-[#8B4513] rounded-lg border-0 hover:border-2 hover:border-black"
           >
-            <a href="#rockets" class="w-full text-center py-6 hover:opacity-90"
-              >Our Rockets</a
+            <a href="#talks" class="w-full text-center py-6 hover:opacity-90"
+              >Talks</a
             >
           </div>
           <div
-            class="w-full text-center mb-6 bg-black border-0 hover:border-2 border-teal-700"
+            class="w-2/3 text-center rounded-lg mb-2 py-2 bg-[#8B4513] border-0 hover:border-2 hover:border-black"
+          >
+            <a
+              href="#blog"
+              class="w-full text-center py-6 hover:opacity-90"
+              >Blog</a
+            >
+          </div>
+          <div
+            class="w-2/3 text-center rounded-lg mb-2 py-2 bg-[#8B4513] border-0 hover:border-2 hover:border-black"
+          >
+            <a
+              href="#project"
+              class="w-full text-center py-6 hover:opacity-90"
+              >Project</a
+            >
+          </div>
+          <div
+            class="w-2/3 text-center rounded-lg mb-2 py-2 bg-[#8B4513] border-0 hover:border-2 hover:border-black"
           >
             <a
               href="#testimonials"
@@ -103,17 +121,10 @@
             >
           </div>
           <div
-            class="w-full text-center mb-6 bg-black border-0 hover:border-2 border-teal-700"
-          >
-            <a href="#contact" class="w-full text-center py-6 hover:opacity-90"
-              >Contact Us</a
-            >
-          </div>
-          <div
-            class="w-full text-center rounded-b-lg bg-black border-0 hover:border-2 border-teal-700"
+            class="w-2/3 text-center rounded-lg py-2 bg-[#8B4513] border-0 hover:border-2 hover:border-black"
           >
             <a href="#footer" class="w-full text-center py-6 hover:opacity-90"
-              >Legal</a
+              >Contact</a
             >
           </div>
         </nav>
@@ -128,7 +139,7 @@
           Ozioma Agaecheta
         </h1>
         <h2
-          class="text-5xl text-[#8B4513] dark:text-white ml-0 pt-2 font-bold hover:underline"
+          class="font-customFont text-5xl text-[#8B4513] dark:text-white ml-0 pt-2 font-bold hover:underline"
         >
           Full-Stack Developer &amp; Web3 Developer
         </h2>
@@ -154,7 +165,7 @@
                 alt="A picture of me"
               />
             </a>
-            <a href="http://ww..alxafrica.com">Diploma, Software Engineering</a>
+            <a href="http://www.alxafrica.com">Diploma, Software Engineering</a>
           </div>
 
           <div class="flex items-center gap-x-2 ml-6">
@@ -669,18 +680,18 @@
             </button>
           </div>
         </div>
-        <a
-          href="http://www.github/magdielian-code/easymailer"
-          class="lg:p-0 g:p-0 max-w-lg mt-3 lg:mt-0 ml-6"
-        >
-          <img src="http://www.github/magdielian-code" alt="Ozioma Agaecheta" />
-        </a>
+        <div class="lg:p-0 ;g:p-0 max-w-lg">
+          <img
+            src="https://www.github.com/magdielian-code/me"
+            alt="thumbnail for the project"
+            class="text-lg/8 sm:mt-1 w-23 h-23 md:text-xlg/10 ml-6"
+          />
+        </div>
       </div>
 
-
       <!-- TESTIMONIAL SECSTION -->
-      <div class="mt-40 flex flex-row gap-3 max-w-6xl">
-        <div class="max-w-6xl bg-[#634832] bg:opacity-50 rounded-lg ml-6 max-w-1/4">
+      <div class="mt-40 flex flex-row :flex-wrap-2 gap-3 max-w-6xl">
+        <div class="bg-[#634832] bg:opacity-50 rounded-lg ml-6 max-w-1/4">
           <div class="flex flex-row">
             <div class="mt-4 flex flex-row">
               <img
@@ -699,17 +710,17 @@
                 alt="linkedin logo"
                 class="w-4 h-4 mt-1"
               />
-              <span class="ml-1">LinkedIn</span>
+              <span class="ml-1 sm:hidden">LinkedIn</span>
             </div>
           </div>
-          <p class="font-thin text-left m-3 mt-2 text-white">
+          <div class="font-thin text-left m-3 mt-2 text-white">
             Acme has always been there for me. Their Explorer rocket arrived in
             a wooden crate as expected. Life-long customer! A++ shopping
             experience.
-          </p>
+          </div>
         </div>
 
-        <div class="max-w-6xl bg-[#634832] bg:opacity-50 rounded-lg ml-6 max-w-1/4">
+        <div class="bg-[#634832] bg:opacity-50 rounded-lg ml-6 max-w-1/4">
           <div class="flex flex-row">
             <div class="mt-4 flex flex-row">
               <img
