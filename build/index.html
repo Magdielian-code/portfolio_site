@@ -12,7 +12,7 @@
     <script src="./js/main.js" defer></script>
   </head>
   <body
-    class="font-customFont min-h-screen bg-white text-black dark:bg-black dark:text-white"
+    class=" min-h-screen bg-white text-black dark:bg-black dark:text-white"
   >
     <header
       class="bg-black dark:bg-black text-white dark:text-white sticky sm:sticky top-0 sm:top-0 z-10 sm:z-10 w-full min-w-full"
@@ -125,7 +125,7 @@
     <main class="max-w-6xl mx-auto">
       <section class="max-w-6xl ml-6">
         <h1
-          class="text-black dark:text-[#8B4513] font-bold text-[4rem] md:text-[7rem] leading-none -ml-1 pt-28"
+          class="font-customFont text-black dark:text-[#8B4513] font-bold text-[4rem] md:text-[7rem] leading-none -ml-1 pt-28"
         >
           Ozioma Agaecheta
         </h1>
@@ -184,7 +184,7 @@
             height="87"
             class="float-left sm:hidden mr-4 rounded-full hidden lg:flex"
           />
-          <div class="font-bold text-5xl md:text-7xl lg:text-8xl sm:text-8xl">
+          <div class="font-customFont font-bold text-5xl md:text-7xl lg:text-8xl sm:text-8xl">
             I build <span class="text-[#8B4513]">scalable software</span>
           </div>
         </div>
@@ -293,7 +293,7 @@
 
       <!-- Tools and Software -->
       <h1
-        class="text-[#8B4513] font-bold mt-40 text-5xl lg:text-6xl md:text-7xl mb-8 ml-6"
+        class="font-customFont text-[#8B4513] font-bold mt-40 text-5xl lg:text-6xl md:text-7xl mb-8 ml-6"
       >
         Tools and Software
       </h1>
@@ -629,7 +629,7 @@
 
       <!-- Featured Projects -->
       <h1
-        class="text-[#8B4513] font-bold mt-40 text-5xl lg:text-6xl md:text-7xl mb-8 ml-6"
+        class="font-customFont text-[#8B4513] font-bold mt-40 text-5xl lg:text-6xl md:text-7xl mb-8 ml-6"
       >
         Featured Projects
       </h1>
@@ -638,26 +638,46 @@
         class="flex flex-col justify-between lg:flex-row max-w-6xl"
       >
         <div class="ml-6 max-w-lg">
-          <h1 class="lg:text-4xl font-bold mr-4 text-3xl lg:flex">Easymailer</h1>
+          <h1 class="lg:text-4xl font-bold mr-4 text-3xl lg:flex">
+            Easymailer
+          </h1>
           <div class="text-2xl md:text-7xl lg:text-2xl sm:text-8xl mt-3">
-            Drowning in email? EasilyMailer simplifies your inbox with
-            prioritization, one-click deletion, and keyword-based filtering.
-            Flag important emails to stay on top of them, set reminders to avoid
-            missed deadlines, and eliminate unwanted emails with a single click
-            or by using specific keywords. Take back control of your inbox and
-            your time with EasilyMailer!
+            EasilyMailer cuts through email clutter! Prioritize emails, set
+            reminders, and delete unwanted emails with a single click or keyword
+            filters. Take back your inbox, take back your time.
+          </div>
+          <div class="mt-4 gap-3 flex flex-wrap flex-row">
+            <button class=" px-2 rounded-lg text-white dark:text-[#8B4513] bg-[#8B4513] dark:bg-white">Python</button>
+            <button class=" px-2 rounded-lg text-white dark:text-[#8B4513] bg-[#8B4513] dark:bg-white">Next.js</button>
+            <button class=" px-2 rounded-lg text-white dark:text-[#8B4513] bg-[#8B4513] dark:bg-white">Typescript</button>
+            <button class=" px-2 rounded-lg text-white dark:text-[#8B4513] bg-[#8B4513] dark:bg-white">DjangoRestFramework</button>
           </div>
         </div>
-        <div class="lg:p-0 ;g:p-0 max-w-lg mt-3">
-          <div class="text-lg/8 sm:mt-3 md:text-xlg/10 ml-6">
-            <img
-              src="./img/me2.jpeg"
-              alt="Ozioma Agaecheta"
-              width=""
-              height="3"
-            />
+        <a
+          href="http://www.github/magdielian-code/easymailer"
+          class="lg:p-0 g:p-0 max-w-lg mt-3 lg:mt-0 ml-6"
+        >
+          <img src="http://www.github/magdielian-code" alt="Ozioma Agaecheta"/>
+        </a>
+      </div>
+
+      <div class="mt-40 flex flex-row">
+        <button class="justify-between flex flex-row">
+          <div>
+            <div class="flex flex-row">
+              <img
+                  class="w-11 h-11 ml-6 rounded-full"
+                  src="./img/me2.jpeg"
+                  alt="A picture of me"/>
+              <span class="ml-5 flex flex-col font-semibold">Chibuotu Amadi <span class="font-thin mt-0">CEO, Paycrest.</span></span> 
+            </div>
+            <div class="flex flex-row ml-40">
+              <img src="./img/linkedin.svg" alt="linkedin logo" class="w-4 h-4 mt-1">
+              <span class="ml-1">LinkedIn</span>
+            </div>
           </div>
-        </div>
+        </button>
+       
       </div>
     </main>
   </body>
