@@ -11,9 +11,7 @@
     <!-- Javascript link -->
     <script src="./js/main.js" defer></script>
   </head>
-  <body
-    class=" min-h-screen bg-white text-black dark:bg-black dark:text-white"
-  >
+  <body class="min-h-screen bg-white text-black dark:bg-black dark:text-white">
     <header
       class="bg-black dark:bg-black text-white dark:text-white sticky sm:sticky top-0 sm:top-0 z-10 sm:z-10 w-full min-w-full"
     >
@@ -184,7 +182,9 @@
             height="87"
             class="float-left sm:hidden mr-4 rounded-full hidden lg:flex"
           />
-          <div class="font-customFont font-bold text-5xl md:text-7xl lg:text-8xl sm:text-8xl">
+          <div
+            class="font-customFont font-bold text-5xl md:text-7xl lg:text-8xl sm:text-8xl"
+          >
             I build <span class="text-[#8B4513]">scalable software</span>
           </div>
         </div>
@@ -647,37 +647,96 @@
             filters. Take back your inbox, take back your time.
           </div>
           <div class="mt-4 gap-3 flex flex-wrap flex-row">
-            <button class=" px-2 rounded-lg text-white dark:text-[#8B4513] bg-[#8B4513] dark:bg-white">Python</button>
-            <button class=" px-2 rounded-lg text-white dark:text-[#8B4513] bg-[#8B4513] dark:bg-white">Next.js</button>
-            <button class=" px-2 rounded-lg text-white dark:text-[#8B4513] bg-[#8B4513] dark:bg-white">Typescript</button>
-            <button class=" px-2 rounded-lg text-white dark:text-[#8B4513] bg-[#8B4513] dark:bg-white">DjangoRestFramework</button>
+            <button
+              class="px-2 rounded-lg text-white dark:text-[#8B4513] bg-[#8B4513] dark:bg-white"
+            >
+              Python
+            </button>
+            <button
+              class="px-2 rounded-lg text-white dark:text-[#8B4513] bg-[#8B4513] dark:bg-white"
+            >
+              Next.js
+            </button>
+            <button
+              class="px-2 rounded-lg text-white dark:text-[#8B4513] bg-[#8B4513] dark:bg-white"
+            >
+              Typescript
+            </button>
+            <button
+              class="px-2 rounded-lg text-white dark:text-[#8B4513] bg-[#8B4513] dark:bg-white"
+            >
+              DjangoRestFramework
+            </button>
           </div>
         </div>
         <a
           href="http://www.github/magdielian-code/easymailer"
           class="lg:p-0 g:p-0 max-w-lg mt-3 lg:mt-0 ml-6"
         >
-          <img src="http://www.github/magdielian-code" alt="Ozioma Agaecheta"/>
+          <img src="http://www.github/magdielian-code" alt="Ozioma Agaecheta" />
         </a>
       </div>
 
-      <div class="mt-40 flex flex-row">
-        <button class="justify-between flex flex-row">
-          <div>
-            <div class="flex flex-row">
+
+      <!-- TESTIMONIAL SECSTION -->
+      <div class="mt-40 flex flex-row gap-3 max-w-6xl">
+        <div class="max-w-6xl bg-[#634832] bg:opacity-50 rounded-lg ml-6 max-w-1/4">
+          <div class="flex flex-row">
+            <div class="mt-4 flex flex-row">
               <img
-                  class="w-11 h-11 ml-6 rounded-full"
-                  src="./img/me2.jpeg"
-                  alt="A picture of me"/>
-              <span class="ml-5 flex flex-col font-semibold">Chibuotu Amadi <span class="font-thin mt-0">CEO, Paycrest.</span></span> 
+                class="w-11 h-11 ml-3 rounded-full"
+                src="./img/me2.jpeg"
+                alt="A picture of me"
+              />
+              <span class="ml-5 flex flex-col font-semibold"
+                >Chibuotu Amadi
+                <span class="font-thin">CEO, Paycrest.</span></span
+              >
             </div>
-            <div class="flex flex-row ml-40">
-              <img src="./img/linkedin.svg" alt="linkedin logo" class="w-4 h-4 mt-1">
+            <div class="flex flex-row mt-4 ml-40">
+              <img
+                src="./img/linkedin.svg"
+                alt="linkedin logo"
+                class="w-4 h-4 mt-1"
+              />
               <span class="ml-1">LinkedIn</span>
             </div>
           </div>
-        </button>
-       
+          <p class="font-thin text-left m-3 mt-2 text-white">
+            Acme has always been there for me. Their Explorer rocket arrived in
+            a wooden crate as expected. Life-long customer! A++ shopping
+            experience.
+          </p>
+        </div>
+
+        <div class="max-w-6xl bg-[#634832] bg:opacity-50 rounded-lg ml-6 max-w-1/4">
+          <div class="flex flex-row">
+            <div class="mt-4 flex flex-row">
+              <img
+                class="w-11 h-11 ml-3 rounded-full"
+                src="./img/me2.jpeg"
+                alt="A picture of me"
+              />
+              <span class="ml-5 flex flex-col font-semibold"
+                >Chibuotu Amadi
+                <span class="font-thin">CEO, Paycrest.</span></span
+              >
+            </div>
+            <div class="flex flex-row mt-4 ml-40">
+              <img
+                src="./img/linkedin.svg"
+                alt="linkedin logo"
+                class="w-4 h-4 mt-1"
+              />
+              <span class="ml-1 lg:hidden">LinkedIn</span>
+            </div>
+          </div>
+          <p class="font-thin text-left m-3 mt-2 text-white text-wrap">
+            Acme has always been there for me. Their Explorer rocket arrived in
+            a wooden crate as expected. Life-long customer! A++ shopping
+            experience.
+          </p>
+        </div>
       </div>
     </main>
   </body>
