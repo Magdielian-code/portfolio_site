@@ -23,37 +23,20 @@ const initApp = () => {
 
 document.addEventListener("DOMContentLoaded", initApp);
 
+
 const navDropDown = () => {
   const homeNav = document.getElementById("home");
   const homeNavMenu = document.getElementById("home-nav-menu");
-  
+
   const mouseOverMenu = () => {
     homeNavMenu.classList.toggle("hidden");
     homeNavMenu.classList.toggle("flex");
     homeNav.classList.toggle("toggle-btn");
+    
   };
 
   homeNav.addEventListener("mouseover", mouseOverMenu);
-  homeNavMenu.addEventListener("mouseover", mouseOverMenu);
+  homeNavMenu.addEventListener("mouseout", mouseOverMenu);
 };
 
 document.addEventListener("DOMContentLoaded", navDropDown);
-
-
-// const navDropDown = () => {
-//     const homeNav = document.getElementById("home");
-//     const homeNavMenu = document.getElementById("home-nav-menu");
-  
-//     const mouseOverMenu = (event) => {
-//       // Check if mouse leaves the dropdown itself (for better UX)
-//       if (!event.target.closest("#home-nav-menu")) {
-//         homeNavMenu.classList.toggle("hidden");
-//       }
-//     };
-  
-//     homeNav.addEventListener("mouseover", mouseOverMenu);
-//     homeNavMenu.addEventListener("mouseout", mouseOverMenu);
-//   };
-  
-//   document.addEventListener("DOMContentLoaded", navDropDown);
-  
